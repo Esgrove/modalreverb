@@ -13,7 +13,7 @@ I wrote a seminar paper on modal filter reverberation for the Aalto University A
 
 #### Modal Reverb implementation (modalreverb.m) 
 
-Testing the reverb algorithm with different numbers of filters (modeled modes). Modes are divided randomly inside each octave band, with the number of modes per octave increasing exponentially. Some randomness is introduced also for the reverberation time as a function of frequency. Parameters are completely synthetic so the end result is not the most realistic or best sounding. The intention here was to see how it works and mainly see how the number of modes affects the result. The reverb code is far from optimal and is quite slow for long audio samples (it is programmed in a very straigthforward manner, i.e. using for-loops instead of using MATLAB vectorization).
+Testing the reverb algorithm with different numbers of filters (modeled modes). Modes are divided randomly inside each octave band, with the number of modes per octave increasing exponentially. Some randomness is introduced also for the reverberation time as a function of frequency. Parameters are completely synthetic so the end result is not the most realistic or best sounding. The intention here was to see how it works and mainly see how the number of modes affects the result. The reverb code is far from optimal and is quite slow for long audio samples (it is programmed in a very straigthforward manner, i.e. using for-loops instead of MATLAB vectorization for fast calculations).
 
 #### Room frequency response plotting (roomresponse.m)
 
