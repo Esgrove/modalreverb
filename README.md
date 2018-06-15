@@ -1,5 +1,7 @@
 # Modal Filter Reverb
 
+![alt text](https://github.com/Esgrove/modalreverb/blob/master/waterfall.png)
+
 I wrote a seminar paper on modal filter reverberation for the Aalto University Acoustics and Audio Technology Seminar 2016 course, and implemented the reverb algorithm described in the paper [A modal architecture for artificial reverberation with application to room acoustics modeling](http://www.aes.org/e-lib/browse.cfm?elib=17531). In a modal filter reverb, artificial reverberation is produced by modeling a space (or other reverb producing object, such as analog spring reverbs) as a linear combination of resonant filters, where each filter corresponds to one (room) mode. This way, a digital reverb audio effect can be produced efficiently and accurately from any acoustic space or object.
 
 ### Included in the repo:
@@ -19,4 +21,4 @@ Plotting a regular 2d frequency response and a fancy waterfall plot from a room 
 
 #### Room modes (roommodes.m)
 
-Calculate and plot the count and distribution of room modes in a room.
+Calculate and plot the count and distribution of room modes in a room for reference.
